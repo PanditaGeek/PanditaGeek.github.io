@@ -1,0 +1,73 @@
+body{
+    background-image: url(https://img.freepik.com/vector-gratis/fondo-galaxia-realista_52683-12122.jpg?w=1060&t=st=1684087495~exp=1684088095~hmac=175bbcd0d2c555addbc461054f29aa7ca231b0bdee1b466576c65fd29a755fb5);
+    background-size: cover;
+    min-height: 100vh;
+    margin: 0;
+    background-position: center;
+    font-family: monospace;
+    color: goldenrod;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    max-width: 600px;
+    padding: 128px;
+    margin: 128px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    backdrop-filter: blur(32px);
+    border: 1px red solid;
+    box-shadow: 0 0 32px rgba(255, 255, 255, 0.5);
+    border-radius: 32px;
+    gap: 8px;
+}
+
+img{
+    display: block;
+    border-radius: 50%;
+}
+
+h1{
+    margin: 0;
+    font-size: 1.5rem;
+}
+h2{
+    margin: 0;
+    font-size: 24px;
+}
+h3{
+    font-size: 24px;
+}
+span{
+    font-size: 24px;
+}
+h4{
+    font-size: 24px;
+}
+h6{
+    font-size: 24px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    font-size: 32px;
+}
+p{
+    font-size: 24px;
+    
+}
+a{
+    color: whitesmoke;  
+}
+.skill{
+    background-color: palevioletred;
+    border-radius: 16px;
+    color: black;
+    padding: 4px 8px;
+}
